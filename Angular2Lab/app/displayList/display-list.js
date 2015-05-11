@@ -7,21 +7,18 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
     }
 };
 /// <reference path="../../typings/angular2/angular2.d.ts" />
-var angular2_1 = require("angular2/angular2");
+var angular2_1 = require('angular2/angular2');
 var DisplayComponent = (function () {
     function DisplayComponent() {
-        this.myName = "Alice";
-        this.init();
+        this.myName = "Kumanan";
+        this.names = ["Rob", "Bob", "Tom", "Bill", "Greg"];
     }
-    DisplayComponent.prototype.init = function () {
-        setInterval(function () { this.time = (new Date()).toString(); }.bind(this), 1000);
-    };
     DisplayComponent = __decorate([
         angular2_1.Component({
             selector: 'display'
         }),
         angular2_1.View({
-            templateUrl: 'app/displaylist/display_list.html',
+            templateUrl: 'app/displayList/display_list.html',
             directives: [angular2_1.For]
         })
     ], DisplayComponent);

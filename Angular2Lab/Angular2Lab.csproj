@@ -23,6 +23,7 @@
     <Content Include="app\displayList\display-list.js" />
     <Content Include="app\displayList\display_list.html" />
     <Content Include="app\myAPP.html" />
+    <Content Include="DisplayListDemo.html" />
     <Content Include="index.html" />
     <Content Include="js\angular2.dev.js" />
     <Content Include="web.config" />
