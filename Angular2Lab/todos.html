@@ -1,25 +1,21 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title>Angular2: Display List</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
     <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
     <script src="https://jspm.io/system@0.16.js"></script>
     <script src="js/angular2.dev.js"></script>
-    <script src="app/FriendsService.js"></script>
-    <script src="app/displayList/display-list.js"></script>
+    <script src="app/todos/TodoList.js"></script>
 </head>
 <body>
-    <h5>Display List</h5>
-    <display></display>
- 
+<todo-list ></todo-list>
+
+
     <script>
-    System.import('app/displayList/display-list');
+        System.import('app/todos/TodoList');
 
     </script>
-
 
 </body>
 </html>

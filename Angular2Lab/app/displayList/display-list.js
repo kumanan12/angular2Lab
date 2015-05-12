@@ -10,12 +10,23 @@ if (typeof __decorate !== "function") __decorate = function (decorators, target,
 var angular2_1 = require('angular2/angular2');
 var DisplayComponent = (function () {
     function DisplayComponent() {
-        this.myName = "Kumanan";
-        this.names = ["Rob", "Bob", "Tom", "Bill", "Greg"];
     }
+    //@Inject(Engine) engine
+    /* constructor(friendsService:FriendsService) {
+         this.myName = "Kumanan";
+         this.names = friendsService.names;
+     }*/
+    /*  constructor() {
+          this.myName = "Kumanan";
+          this.names = ["Rob", "Bob", "Tom", "Bill", "Greg", "Jerry", "Grant"];
+      }*/
+    DisplayComponent.prototype.myControllerMethod = function (event) {
+        console.log("key up");
+    };
     DisplayComponent = __decorate([
         angular2_1.Component({
-            selector: 'display'
+            selector: 'display',
+            injectables: [FriendsService]
         }),
         angular2_1.View({
             templateUrl: 'app/displayList/display_list.html',

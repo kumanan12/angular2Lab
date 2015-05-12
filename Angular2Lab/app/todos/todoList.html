@@ -1,0 +1,7 @@
+﻿<input #todotext (keyup)="doneTyping($event)">
+<button (click)="addTodo(todotext.value)">Add Todo</button>
+<ul>
+    <li *for="#todo of todos">
+        {{todo}}
+    </li>
+</ul>

@@ -22,15 +22,21 @@
     <Content Include="app\app.js" />
     <Content Include="app\displayList\display-list.js" />
     <Content Include="app\displayList\display_list.html" />
+    <Content Include="app\FriendsService.js" />
     <Content Include="app\myAPP.html" />
+    <Content Include="app\todos\todoList.html" />
+    <Content Include="app\todos\TodoList.js" />
     <Content Include="DisplayListDemo.html" />
     <Content Include="index.html" />
     <Content Include="js\angular2.dev.js" />
+    <Content Include="todos.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.ts" />
     <TypeScriptCompile Include="app\displayList\display-list.ts" />
+    <TypeScriptCompile Include="app\FriendsService.ts" />
+    <TypeScriptCompile Include="app\todos\TodoList.ts" />
     <TypeScriptCompile Include="typings\angular2\angular2.d.ts" />
   </ItemGroup>
   <ItemGroup>
