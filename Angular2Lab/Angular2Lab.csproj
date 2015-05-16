@@ -29,6 +29,11 @@
     <Content Include="DisplayListDemo.html" />
     <Content Include="index.html" />
     <Content Include="js\angular2.dev.js" />
+    <Content Include="js\forms\directives.js" />
+    <Content Include="js\forms\form_builder.js" />
+    <Content Include="js\forms\model.js" />
+    <Content Include="js\forms\validators.js" />
+    <Content Include="js\forms\validator_directives.js" />
     <Content Include="todos.html" />
     <Content Include="web.config" />
   </ItemGroup>
@@ -40,6 +45,11 @@
     <TypeScriptCompile Include="typings\angular2\angular2.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\forms\directives.map" />
+    <Content Include="js\forms\form_builder.map" />
+    <Content Include="js\forms\model.map" />
+    <Content Include="js\forms\validators.map" />
+    <Content Include="js\forms\validator_directives.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

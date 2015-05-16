@@ -11,16 +11,12 @@ import {Component, View, bootstrap, For} from 'angular2/angular2';
 class DisplayComponent {
     myName: string;
     names: Array<string>;
-    //@Inject(Engine) engine
-   /* constructor(friendsService:FriendsService) {
+   
+    constructor() {
+        var fs = new FriendsService();
         this.myName = "Kumanan";
-        this.names = friendsService.names;
-    }*/
-
-  /*  constructor() {
-        this.myName = "Kumanan";
-        this.names = ["Rob", "Bob", "Tom", "Bill", "Greg", "Jerry", "Grant"];
-    }*/
+        this.names = fs.names;
+    }
 
     myControllerMethod(event) {
         console.log("key up");
